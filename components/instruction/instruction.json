@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_instruction_instructions",
+  "info": {
+    "name": "instruction",
+    "icon": "check-circle"
+  },
+  "options": {},
+  "attributes": {
+    "step": {
+      "type": "integer",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "richtext",
+      "required": true
+    },
+    "longDescription": {
+      "type": "richtext"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

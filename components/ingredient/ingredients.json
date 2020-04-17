@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ingredients_ingredients",
+  "info": {
+    "name": "ingredient",
+    "icon": "carrot"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "quantity": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

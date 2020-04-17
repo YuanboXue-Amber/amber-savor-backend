@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_time_needed_time_neededs",
+  "info": {
+    "name": "timeNeeded",
+    "icon": "stopwatch"
+  },
+  "options": {},
+  "attributes": {
+    "prepTime": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    },
+    "waitTime": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    },
+    "cookTime": {
+      "type": "integer",
+      "unique": false,
+      "default": 0,
+      "required": true
+    }
+  }
+}
