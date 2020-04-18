@@ -50,16 +50,16 @@
     "description": {
       "type": "richtext"
     },
-    "tags": {
-      "collection": "tags",
-      "via": "recipes",
-      "dominant": true
-    },
     "ingredients": {
       "type": "component",
       "repeatable": true,
       "component": "ingredient.ingredients",
       "required": true
+    },
+    "categories": {
+      "collection": "category",
+      "via": "recipes",
+      "dominant": true
     }
   }
 }

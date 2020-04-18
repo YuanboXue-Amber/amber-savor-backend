@@ -1,17 +1,18 @@
 {
   "kind": "collectionType",
-  "collectionName": "tags",
+  "collectionName": "categories",
   "info": {
-    "name": "tags"
+    "name": "category"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "tagName": {
+    "name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "featuredImage": {
       "model": "file",
@@ -23,7 +24,7 @@
       "required": true
     },
     "recipes": {
-      "via": "tags",
+      "via": "categories",
       "collection": "recipe"
     }
   }
