@@ -24,8 +24,13 @@
       "required": true
     },
     "recipes": {
-      "via": "categories",
-      "collection": "recipe"
+      "collection": "recipe",
+      "via": "categories"
+    },
+    "uid": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
     }
   }
 }

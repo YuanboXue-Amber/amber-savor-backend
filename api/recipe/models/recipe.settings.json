@@ -57,8 +57,8 @@
       "required": true
     },
     "categories": {
-      "collection": "category",
       "via": "recipes",
+      "collection": "category",
       "dominant": true
     }
   }
